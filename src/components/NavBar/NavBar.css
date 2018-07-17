@@ -1,0 +1,48 @@
+.navbar {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1000;
+    height: 90px;
+    width: 100%;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.799);
+  }
+  
+  .navbar .logo {
+    margin: 10px;
+    width: 450px;
+    background:white;
+    color: Black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .navMessage {
+    padding: 20px;
+    color: white;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .navbar .score {
+    margin: 10px;
+    width: 450px;
+    background:white;
+    color: Black;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    text-align: center;
+  }

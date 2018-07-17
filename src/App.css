@@ -1,0 +1,53 @@
+/* @font-face {
+  font-family: 'Norse';
+  src: url('./fonts/Norse.eot');
+  src: url('./fonts/Norse.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/Norse.woff2') format('woff2'),
+      url('./fonts/Norse.woff') format('woff'),
+      url('./fonts/Norse.ttf') format('truetype'),
+      url('./fonts/Norse.svg#Norse') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+body {
+  font-family: 'cursive';
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.card-container {
+  position: relative;
+  top: 0px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

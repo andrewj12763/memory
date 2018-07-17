@@ -1,0 +1,26 @@
+.title {
+    position: relative;
+    text-align: center;
+    background-color: #F5F9FC;
+    background-image: url(https://i.imgur.com/xdSL9QW.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 570px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+   
+   .jumbotron-content {
+     color: white;
+     position: relative; 
+     top: 65%;
+     background-color: rgba(0, 0, 0, 0.799);
+     width: 50%;
+     height: 175px;
+     border-radius: 15px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+   }
